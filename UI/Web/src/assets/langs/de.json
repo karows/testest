@@ -49,8 +49,8 @@
     "scrobble-event-type-pipe": {
         "chapter-read": "Lesefortschritt",
         "score-updated": "Bewertung Aktualisierung",
-        "want-to-read-add": "Möchte ich lesen: hinzufügen",
-        "want-to-read-remove": "Möchte ich lesen: entfernen",
+        "want-to-read-add": "Favoriten: hinzufügen",
+        "want-to-read-remove": "Favoriten: entfernen",
         "review": "Aktualisierung überprüfung"
     },
     "spoiler": {
@@ -62,7 +62,8 @@
         "close": "{{common.close}}",
         "save": "{{common.save}}",
         "required": "Pflichtfeld",
-        "min-length": "Rezension muss mindestens {{count}} Zeichen lang sein"
+        "min-length": "Rezension muss mindestens {{count}} Zeichen lang sein",
+        "delete": "{{common.delete}}"
     },
     "review-card-modal": {
         "close": "{{common.close}}",
@@ -77,7 +78,7 @@
         "rating-percentage": "Bewertung {{r}}%"
     },
     "want-to-read": {
-        "title": "Möchte ich lesen",
+        "title": "Favoriten",
         "series-count": "{{common.series-count}}",
         "no-items": "Es sind keine Einträge vorhanden. Versuchen Sie, eine Serie hinzuzufügen.",
         "no-items-filtered": "Keine Einträge entsprechen Ihrem aktuellen Filter."
@@ -87,8 +88,8 @@
         "pref-description": "Dies sind globale Einstellungen, die an Ihr Konto gebunden sind.",
         "account-tab": "Konto",
         "preferences-tab": "Präferenzen",
-        "3rd-party-clients-tab": "Drittanbieter Clienten",
-        "theme-tab": "Motiv",
+        "3rd-party-clients-tab": "Drittanbieter-Clients",
+        "theme-tab": "Thema",
         "devices-tab": "Geräte",
         "stats-tab": "Statistiken",
         "scrobbling-tab": "Scrobbling",
@@ -144,7 +145,7 @@
         "margin-book-label": "Seitenrand",
         "margin-book-tooltip": "Wie viel Abstand auf jeder Seite des Bildschirms. Auf mobilen Geräten wird dieser Wert unabhängig von dieser Einstellung auf 0 gesetzt.",
         "clients-opds-alert": "OPDS ist auf diesem Server nicht aktiviert. Tachiyomi-Benutzer sind davon nicht betroffen.",
-        "clients-opds-description": "Alle Clienten von Drittanbietern verwenden entweder den API-Schlüssel oder die unten stehende Verbindungsurl. Diese sind wie Passwörter, vertraulich behandeln.",
+        "clients-opds-description": "Alle Clients von Drittanbietern verwenden entweder den API-Schlüssel oder die unten stehende Verbindungs-URL. Diese sind wie Passwörter, vertraulich zu behandeln.",
         "clients-api-key-tooltip": "Der API-Schlüssel ist wie ein Passwort. Bitte vertraulich behandeln.",
         "clients-opds-url-tooltip": "OPDS URL",
         "reset": "{{common.reset}}",
@@ -570,9 +571,14 @@
     },
     "side-nav": {
         "bookmarks": "Lesezeichen",
-        "filter-label": "Filter",
+        "filter-label": "{{common.filter}}",
         "donate": "Spenden",
-        "reading-lists": "Leselisten"
+        "reading-lists": "Leselisten",
+        "clear": "{{common.clear}}",
+        "collections": "Sammlungen",
+        "want-to-read": "Favoriten",
+        "home": "Startseite",
+        "all-series": "Alle Serien"
     },
     "library-settings-modal": {
         "close": "{{common.close}}",
@@ -693,7 +699,7 @@
     },
     "entity-title": {
         "special": "Spezial",
-        "issue-num": "Fehler #",
+        "issue-num": "Issue #",
         "chapter": "Kapitel"
     },
     "external-series-card": {
@@ -819,16 +825,19 @@
         "submit": "Einreichen",
         "email": "E-Mail",
         "read": "Lesen",
-        "loading": "Wird geladen…",
-        "username": "Nutzername",
+        "loading": "Laden…",
+        "username": "Benutzername",
         "password": "Passwort",
-        "select-all": "Wählen Sie Alle",
+        "select-all": "Alle auswählen",
         "deselect-all": "Alle abwählen",
-        "series-count": "{{num}}er-Serie",
+        "series-count": "{{num}} Serien",
         "item-count": "{{num}} Artikel",
         "book-num": "Buch",
         "volume-num": "Band",
-        "chapter-num": "Kapitel"
+        "chapter-num": "Kapitel",
+        "remove": "Entfernen",
+        "issue-hash-num": "Ausgabe #",
+        "issue-num": "Ausgabe"
     },
     "customize-dashboard-modal": {
         "smart-filters": "Intelligente Filter",
